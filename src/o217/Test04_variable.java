@@ -57,7 +57,7 @@ public class Test04_variable {
 		
 	    // 성적 프로그램
 	    String name = "홍길동";
-	    int kor = 85, eng = 90, mat = 95;
+	    int kor = 85, eng = 90, mat = 93;
 	    int total = kor+eng+mat;
 	    System.out.println("이름 : " + name);
 	    System.out.println("국 영 수의 총점 : " + total);
