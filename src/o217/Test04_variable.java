@@ -11,6 +11,9 @@
 		int j = 10; // 변수 선언과 초기화 한번에
 		System.out.println("j = " + j);	// 출력
 		int i = 10; // 10진수 : 10 or 2진수 1010
+		
+  2) 성적 program
+  
  */
 package o217;
 public class Test04_variable {
@@ -40,5 +43,24 @@ public class Test04_variable {
 		
 		// 4) 문자열형 : String(4)	// 문자열형은 객체 메모리 주소가 변수에 저장
 		String str = "COVID-19"; System.out.println("문자열형 str : "+ str);
+		
+		// 새로운 변수값 지정시 기존값 삭제
+		str = "COVID-119"; System.out.println("문자열형 str : "+ str);
+		str = " "; // 글자개수 1(공백도 1로)
+		System.out.println("str의값" +str+ "공백파악하기위해"); // str의값 공백파악하기위해
+	
+		// 5) 논리형 : boolean(1)
+		boolean bol = true;   
+	    System.out.println("bol = " +bol);	// true
+	    bol = false;
+	    System.out.println("bol = " +bol);	// false 
+		
+	    // 성적 프로그램
+	    String name = "홍길동";
+	    int kor = 85, eng = 90, mat = 95;
+	    int total = kor+eng+mat;
+	    System.out.println("이름 : " + name);
+	    System.out.println("국 영 수의 총점 : " + total);
+	    System.out.println("국 영 수의 평균 : " + total/3);
 	}
 }
