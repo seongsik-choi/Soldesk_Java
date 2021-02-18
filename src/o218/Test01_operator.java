@@ -3,9 +3,7 @@
  1) Operator 연습문제1
 */
 package o218;
-
 import java.util.Scanner;
-
 public class Test01_operator {
 	public static void main(String[] args) {
 	
