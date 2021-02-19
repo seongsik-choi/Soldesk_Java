@@ -8,7 +8,7 @@
 package o219;
 
 import java.util.Scanner;
-public class Test01_quiz {
+public class Test01_review {
 	public static void main(String[] args) {
 	// 연습문제 / 1년(365.2422~일) / 출력결과(365일 ?시간 ?분 ?초)
 	// 1분 60초, 1시간 3600초, 1일 : 86400초, 1년 : 31556926초
