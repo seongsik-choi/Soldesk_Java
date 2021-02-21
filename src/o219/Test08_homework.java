@@ -1,7 +1,10 @@
 package o219;
+
+import java.util.Scanner;
+
 public class Test08_homework {
 	public static void main(String[] args) {
-
+		
 	//문) 두 수 사이의 합을 구하시오.(2+3+4+5) =14
 	System.out.println("문1) 두 수 사이의 합을 구하시오.(2+3+4+5) =14");
 	int start=2;
@@ -114,8 +117,82 @@ public class Test08_homework {
 		}
 	}
 	
+	System.out.println();
+	/*
+	System.out.println("문제 6 교재) 입력한 두수 사이의 합계를 구하시오. 원하는배수를 선택하여\n "
+					+ "합계를 구하는프로그램을 작성(100~200 중에서 4의 배수의 합계를 구할 수 있다.");
+	Scanner s = new Scanner(System.in);
+	int start1, end1;
+	int basu, iii;
+	int hap = 0;
+
+	System.out.printf("합계의 시작값 ==> ");
+	start1 = s.nextInt();
+	System.out.printf("합계의 끝값 ==> ");
+	end1 = s.nextInt();
+	System.out.printf("배수 ==> ");
+	basu = s.nextInt();
 	
+	iii = start;	// 시작 값을 초기화!! 중요
+	while (iii <= end1) {
+		if (iii % basu == 0)
+			hap = hap + iii;
+
+		iii++;
+	}
+	System.out.printf("%d부터 %d까지의 %d배수의 합계 ==> %d입니다.\n\n", start1, end1, basu, hap);
+	s.close();
+
 	
+	System.out.println("문제 7 교재) 입력하 문자열의 대문자와 소문자, 숫자가 각각 몇개인지\n"
+			+ "세는 프로그램을 작성. 그 외 특수 기호 등의 문자는 무시");
+	Scanner sc = new Scanner(System.in);
+	String str;	char ch; // 문자열(str), 문자형(ch) 초기화
+	int upper_cnt = 0, lower_cnt = 0, digit_cnt = 0;	// 대 소 숫 초기화
+	int iiii=0; // 추출할 문자의 위치를 알려주는 변수
+
+	System.out.printf("문자열을 입력 : ");
+	str = sc.nextLine();	// 문자열 입력 받음
+
+	do { 
+		ch = str.charAt(iiii); // 문자열에서 한 글자 추출(문자열의 개수만큼 반복)
+		if (ch >= 'A' && ch <= 'Z')	// 추출할 문자가 A~Z이면
+			upper_cnt++;			// 대문자의 수 1증가
+		if (ch >= 'a' && ch <= 'z')	// 소문자
+			lower_cnt++;			// 소문자의 수 1증가
+		if (ch >= '0' && ch <= '9')	// 숫자
+			digit_cnt++;			// 숫자의 수 1증가
+		
+		iiii++;	// 문자 위치 1증가			
+	} while (iiii < str.length()); // 문자열의 개수가보다 1작을때까지 반복
+									// ex str="가나 다"인경우 str.length() = 4 
+	System.out.printf("대문자 %d개, 소문자 %d개, 숫자 %d개입니다.\n", upper_cnt, lower_cnt, digit_cnt);
+	sc.close();
+	*/
 	
+	System.out.println("0~9중에서 입력한 숫자만큼 별표를 출력하는 프로그램을 작성.예를들어\n"
+			+ "5914를 입력하면 각줄에 별을  5개 9개 1개 4개를 출력");
+	Scanner s = new Scanner(System.in);
+	String str;
+	char ch;
+	int iiii, k;
+	int star;
+
+	System.out.printf("숫자를 여러 개 입력 : ");
+	str = s.nextLine();
+
+	iiii = 0;
+	ch = str.charAt(iiii);
+	while (true) {
+		star = (int) ch - 48;
+
+		for (k = 0; k < star; k++)
+			System.out.printf("*");
+		System.out.printf("\n");
+
+		if (++iiii > str.length() - 1)
+			break;
+		ch = str.charAt(iiii);
+	}
 	}
 }
