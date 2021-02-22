@@ -13,7 +13,6 @@
  */
 package o222;
 import java.util.Scanner;
-
 public class Test01_array {
 	public static void main(String[] args) {
 
@@ -25,6 +24,20 @@ public class Test01_array {
         int [] arr2 = {10, 20, 30, 40, 50};
         System.out.println("arr2[0] : " + arr2[0]); // 10
         System.out.println("arr2[] 배열의 길이는 : "+arr2.length); // 배열이름.length = 5
+        for(int i=0; i<arr2.length; i++) {	// 배열의 길이만큼  <=(불가능)
+        	System.out.println("i의 값은 : " + arr2[i]); // i의값은 10 ..... i의 값은 50
+        }
+        // System.out.println(arr2[5]); // ArrayIndexOutOfBoundsException 발생
+        
+        double [] arr3 = {1.2, 2.2, 3.2, 4.2, 5.2};
+        for(int i=0; i<arr3.length; i++) {	// 배열의 길이만큼  <=(불가능)
+        	System.out.println("i의 값은 : " + arr3[i]); 
+        }
+        
+        String[] name1 = {"김", "이", "박"};
+        for(int i=0; i<name1.length; i++) {	// 배열의 길이만큼  <=(불가능)
+        	System.out.println("name1의 값은 : " + name1[i]); 
+        }
         
         // 점수 입력 받아 평점 구하는 프로그램
         String[] name = {"김", "이", "박"};

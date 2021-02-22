@@ -2,9 +2,7 @@
  배열 quiz
  */
 package o222;
-
 import java.util.Arrays;
-
 public class Test03_quiz {
 	public static void main(String[] args) {
 	 
