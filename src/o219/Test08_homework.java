@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Test08_homework {
 	public static void main(String[] args) {
 		
-	//문) 두 수 사이의 합을 구하시오.(2+3+4+5) =14
+	//문1) 두 수 사이의 합을 구하시오.(2+3+4+5) =14
 	System.out.println("문1) 두 수 사이의 합을 구하시오.(2+3+4+5) =14");
 	int start=2;
 	int end=5;
@@ -14,9 +14,15 @@ public class Test08_homework {
 		cnt =cnt+start;
 	} System.out.println(cnt);
 	
+	// 만약 start가 end보다 큰 경우
+	// 두개의 변수값을 서로 교환(swap
+	// int tmp = start;
+	// start = end;
+	// end = tmp;
+	
 	System.out.println();
 	
-	//문) 다음식의 결과를 구하시오.(1~100까지 한번은 더하고 한번은 뺴고) 1-2+3-4+5...100
+	//문2) 다음식의 결과를 구하시오.(1~100까지 한번은 더하고 한번은 뺴고) 1-2+3-4+5...100
 	System.out.println("문2) 다음식의 결과를 구하시오.(1~100까지 한번은 더하고 한번은 뺴고) 1-2+3-4+5...100");
 	int i = 0;
 	int cnt2 =0;
@@ -33,18 +39,17 @@ public class Test08_homework {
 	
 	//문3) 어느 달팽이는 낮에는 3cm올라가고, 밤에는 2.5cm 내려온다고 할때
     //    달팽이가 13cm의 나무 꼭대기에 올라가려면 며칠이 걸리는지 구하시오
-	System.out.println("문3) 어느 달팽이는 낮에는 3cm올라가고, 밤에는 2.5cm 내려온다고 할때");
-	System.out.println("달팽이가 13cm의 나무 꼭대기에 올라가려면 며칠이 걸리는지 구하시오");
-	double up = 3.0;
-	double down= -2.5;
-	double cnt3 = 0;	// 길이
-	int cnt4 = 1; // 횟수
+	System.out.println("문3) 어느 달팽이는 낮에는 3cm올라가고, 밤에는 2.5cm 내려온다고 할때 "
+			+ "달팽이가 13cm의 나무 꼭대기에 올라가려면 며칠이 걸리는지 구하시오");
+	double up = 3.0;	// 낮
+	double down= -2.5;	// 밤
+	double cnt3 = 0;	// cm
+	int cnt4 = 1; // 일수
 	while(true) {
-		cnt3 = cnt3 + up;
+		cnt3 = cnt3 + up;	
 		cnt3 = cnt3 + down;
-		cnt4++;
-		if(cnt3>12) {
-			
+		cnt4++;		// 일수++ 
+		if(cnt3==13) {
 			break;
 		}
 	} System.out.println(cnt4 + "일");
@@ -71,7 +76,7 @@ public class Test08_homework {
 	      for(int b=1; b<6; b++){		// 3g짜리 추(b) 총 5개까
 	        for(int c=1; c<6; c++) {	// 5g짜리 추(c) 총 5개까
 	        	sum = (a*2)+(b*3)+(c*5);	// total(50g) = 5개*2g + 5개*3g + 5개*5g 
-	          if(sum>=40 && sum<=45){		// if문 출력
+	          if(sum>=40 && sum<=45){		// if문 출력(40이상 45이하)
 	            System.out.println(a+"개 |"+b+"개 | "+c+"개 |  "+sum+"g");
 	          }
 	        }
