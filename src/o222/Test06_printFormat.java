@@ -29,4 +29,5 @@ public class Test06_printFormat {
 		System.out.printf("#%-8s#\n", "HAPPY");	//#HAPPY   #	8칸확보(앞에서부터)
 		
 		System.out.println(String.format("%.4f", 10/3.0));	// "3.333" String형으로 형 변환
+	}
 }
