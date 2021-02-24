@@ -26,7 +26,7 @@ class Sungjuk {	// package class Sungjuk(package 생략가능)
 		aver=(kor+eng+mat)/3;	// 멤버변수 중 private로 선언된 aver변수는 클래스 내부(Sungjuk)에서 사용가능
 	} // calc() end
 	
-	public void disp() {		// basicJava 프로젝트 내에서 전부 접ㅂ근 가능
+	public void disp() {		// basicJava 프로젝트 내에서 전부 접근 가능
 		System.out.println(name);
 		System.out.println(kor);
 		System.out.println(eng);

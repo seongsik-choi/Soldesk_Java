@@ -1,6 +1,6 @@
 package o224;
-public class Test01_Constructor {
-	/*
+public class Test02_Constructor {
+	 /* 				 
 	1. default 생성자 : 컴파일 시점 자동 생성
     	Constructor obj = new Constructor(); // 객체 생성시 점에 -> 호출
     	publuc Constructor(){} // 디폴트 생성자 호출
@@ -15,10 +15,10 @@ public class Test01_Constructor {
     3. 소멸자 : 객체가 GC에 의해 메모리에서 제거될때 finalize() 메서드가 호출
     4. this 키워드 : 현재 객체를 가리킬때 this 사용
 	*/
-	public Test01_Constructor(){ 	// 1.2 생성자가 없는 경우 컴파일 시 자동 생성
+	public Test02_Constructor(){ 	// 1.2 생성자가 없는 경우 컴파일 시 자동 생성
         System.out.println("--Constructor()--"); // 1. 객체 생성시
     }
-    public Test01_Constructor(String s, int[] iArr){ // 2. 사용자 정의 생성자
+    public Test02_Constructor(String s, int[] iArr){ // 2. 사용자 정의 생성자
         System.out.println("Constructor2()");
         System.out.println("S --> " +s);
         System.out.println("iArr --> " +iArr);
@@ -35,7 +35,7 @@ public class Test01_Constructor {
     public int x;
     public int y;
     
-    public Test01_Constructor(int x, int y){
+    public Test02_Constructor(int x, int y){
         this.x= x; // 앞에 x는 전역변수(public x) 뒤에 x는 지역변수(int x)
         this.y =y; // 나전체에 속해있는 y(전역) = 지역변수(int y)
     }
@@ -45,23 +45,24 @@ public class Test01_Constructor {
     }
     
 	public static void main(String[] args) {
+
 		// 1. 디폴트 생성자 호출
-		Test01_Constructor obj1 = new Test01_Constructor(); 
+		Test02_Constructor obj1 = new Test02_Constructor(); 
 
 		// 2. 사용자 정의 생성자
-		int[] iArr = {10, 20, 30};
-		Test01_Constructor obj2 = new Test01_Constructor("Hello", iArr);
+		int[] iArr = {10, 20, 30}; 
+		Test02_Constructor obj2 = new Test02_Constructor("Hello", iArr);
 		System.out.println();
 
 		// 3. 소멸자
-		Test01_Constructor obj3;
-		obj3 = new Test01_Constructor();    // 첫 객채 생성 class
-		obj3 = new Test01_Constructor();    // 소멸자 클래스 호출(첫 객체 소멸시 호출되는 소멸자)
+		Test02_Constructor obj3;
+		obj3 = new Test02_Constructor();    // 첫 객채 생성 class
+		obj3 = new Test02_Constructor();    // 소멸자 클래스 호출(첫 객체 소멸시 호출되는 소멸자)
 		System.gc();                 // Gc 명령
 
 	    // 4. this 키워드
 		System.out.println();
-		Test01_Constructor obj4 = new Test01_Constructor(10, 20);
+		Test02_Constructor obj4 = new Test02_Constructor(10, 20);
 		obj4.getInfo(); 
 	}
 }
