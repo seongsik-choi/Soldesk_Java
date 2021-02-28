@@ -6,7 +6,7 @@
  4. super : 상위 클래스를 호출할 때 사용
  - 부모클래스의 private 접근자의 속성과 메서드는 사용 NO!
  */
-package o225;
+package o226;
 
 class ParentClass{
 	private String name = "private 최성식";	// 멤버변수
@@ -29,9 +29,9 @@ class ParentClass{
 	    }
 }
 
-public class Test01_extends1 extends ParentClass {	// extends
+public class Test01_extends extends ParentClass {	// extends
 	
-	public Test01_extends1() {}		// Constructor
+	public Test01_extends() {}		// Constructor
 	
 	@Override
 	public void parentFun(){ // 부모 클래스의 makeFood 메소드 재정의
@@ -42,7 +42,7 @@ public class Test01_extends1 extends ParentClass {	// extends
     }
 	
 	public static void main(String[] args) {
-	Test01_extends1 t = new Test01_extends1();
+	Test01_extends t = new Test01_extends();
 	t.parentFun();	// Override public Parent Method
 	t.privateFun();	// Override private Parent Method
 	
