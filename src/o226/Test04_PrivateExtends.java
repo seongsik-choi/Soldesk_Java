@@ -1,7 +1,7 @@
 /*
  * Test04_private로 선언된 멤버변수 상속받아 사용하기
  */
-package o226A;
+package o226;
 class ParentClass1{
 	private String name = "private 최성식";	// 멤버변수(priva
 	public ParentClass1() {}	// Constructor

@@ -1,7 +1,7 @@
 /*
  * Test01_Scanner, Exception 활용 Cal
  */
-package o228;
+package other3;
 import java.util.Scanner;
 public class Test01_ScannerException {
 	public static void main(String[] args) {

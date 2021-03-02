@@ -2,7 +2,7 @@
  * Test07_homework
  * 문제1) 다중 상속(interface와 Abstract class)
  */
-package o226B;
+package other1;
 
 import java.util.Scanner;
 

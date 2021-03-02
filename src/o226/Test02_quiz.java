@@ -1,7 +1,7 @@
 /*
  * Test02_quiz
  */
-package o226A;
+package o226;
 public class Test02_quiz {
 public static void main(String[] args) {
 // 문제2) 대소문자 구분하여 출력하기(Character Class 사용)

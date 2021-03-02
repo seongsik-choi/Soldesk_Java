@@ -2,7 +2,7 @@
  * Test03_GUI Menu Programming
  * 문) 메뉴 툴바의 이미지 이미지 섞기 선택 시 이미지 랜덤 배열 
  */
-package o228;
+package other3;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;

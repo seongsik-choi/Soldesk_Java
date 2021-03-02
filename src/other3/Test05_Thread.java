@@ -6,7 +6,7 @@
   1) Thread 클래스 상속 : Thread클래스를 상속받으면 다른 클래스를 상속 no
   2) Runnable 인터페이스 구현 :  재사용성이 높고 코드의 일관성을 유지 할 수 있다는 장점이 있기 때문에 보다 객체지향적인 방법
  */
-package o228;
+package other3;
 public class Test05_Thread {
 public static void main(String[] args) {
 	

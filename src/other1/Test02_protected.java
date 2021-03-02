@@ -2,7 +2,7 @@
  * Test02_protected
  * 1. protected를 사용해 같은 클래스, 패키지 내 접근.
  */
-package o226B;
+package other1;
 class Car {
 	protected String color;	// protected(패키지 내 접근)
 	int speed;

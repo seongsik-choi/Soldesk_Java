@@ -9,7 +9,7 @@ Test05_입력과 출력(FileInputStream  FileOutputStream)
      FileOutputStream : write(byte[] b);  // 전체 쓰기
                         write(write(byte[], inf off, int len);  // off(시작점), len(길이)
  */
-package o227;
+package other2;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

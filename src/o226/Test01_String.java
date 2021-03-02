@@ -1,7 +1,7 @@
 /*
  * Test01_String 보충
  */
-package o226A;
+package o226;
 public class Test01_String {
 	public static void main(String[] args) {
 	String str = "Gone With The Wind";	

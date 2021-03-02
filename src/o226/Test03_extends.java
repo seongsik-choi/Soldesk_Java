@@ -6,7 +6,7 @@
  4. super : 상위 클래스를 호출할 때 사용
  - 부모클래스의 private 접근자의 속성과 메서드는 사용 NO!
  */
-package o226A;
+package o226;
 import javax.swing.text.View;
 class ParentClass{
 	private String name = "private 최성식";	// 멤버변수

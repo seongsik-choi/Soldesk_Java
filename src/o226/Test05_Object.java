@@ -6,7 +6,7 @@
  * 4) 자바의 모든 클래스는 Object클래스의 후손.
  * -> public class Class_Name extends Object {}	// extends Object 생략 가능
  */
-package o226A;
+package o226;
 class Jeju extends Object{	// extends Object 생략 가능
 	@Override
 	public String toString() {	// 함수에 쓰레기 값이 들어갔나 확인

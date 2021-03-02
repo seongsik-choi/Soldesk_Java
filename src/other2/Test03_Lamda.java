@@ -5,7 +5,7 @@ Test03_Lamda formula
  - interface 타입의 변수 -> 람다 Expressions 으로
  - 객체 생성 필요없이, 파라미터, 실행문 만으로 결과를 도출
  */
-package o227;
+package other2;
 // interface로 Lamda Formula 생성
 interface LamadaInterfaceA {
     public void method(String s1, String s2, String s3);}

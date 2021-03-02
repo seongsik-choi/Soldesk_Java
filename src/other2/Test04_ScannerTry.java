@@ -5,7 +5,7 @@
 - System.in.read() // 문자 1개를 입력받음(한글 No)
  문) 사용자 이름을 등록해 놓고, scanner로 등록된 이름 외 다른 이름 입력시 예외처리하는 문제
  */
-package o227;
+package other2;
 import java.io.IOException;
 import java.util.Scanner;
 public class Test04_ScannerTry {

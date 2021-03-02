@@ -22,7 +22,7 @@
 
  5. throws : 예외 발생 시 예외 처리를 직접 하지 않고 호출한 곳으로 넘김
  */
-package o227;
+package other2;
 import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.Scanner;

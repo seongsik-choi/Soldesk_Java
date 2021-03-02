@@ -3,7 +3,7 @@
  - 클래스의 공통된 부분을 뽑아서 별도의 클래스(추상클래스)BankAbstract로 만들어 놓고, 이것을 MyBankAbstract에서 상속해 사용
  - 멤버 변수갖음, extends 키워드, 구현필요, 일반메서드 갖음, 생성자도 있음.
  */
-package o226B;
+package other1;
 abstract class BankAbstract {	// 추상클래스(공통 부분 구현)
     String name;
     String account;

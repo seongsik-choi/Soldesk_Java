@@ -5,7 +5,7 @@
  - Map 계열 : Key를 이용해 데이터를 관리, key 중복 no, 데이터 중복 가능
    HashMap : key = 유일성
  */
-package o227;
+package other2;
 
 import java.util.ArrayList;
 import java.util.HashMap;
