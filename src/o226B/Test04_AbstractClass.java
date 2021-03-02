@@ -3,7 +3,7 @@
  - 클래스의 공통된 부분을 뽑아서 별도의 클래스(추상클래스)로 만들어 놓고, 이것을 상속해 사용
  - 멤버 변수갖음, extends 키워드, 구현필요, 일반메서드 갖음, 생성자도 있음.
  */
-package o226;
+package o226B;
 // Abstract class1
 abstract class AbstractClass {   // 추상클래스 abstract 붙여줌
     int num;    // 멤버 변수 선언가능

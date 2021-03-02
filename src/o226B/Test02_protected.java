@@ -2,9 +2,9 @@
  * Test02_protected
  * 1. protected를 사용해 같은 클래스, 패키지 내 접근.
  */
-package o226;
+package o226B;
 class Car {
-	protected String color;	// protected
+	protected String color;	// protected(패키지 내 접근)
 	int speed;
 }
 class Sedan extends Car {
@@ -27,5 +27,6 @@ public class Test02_protected {
 															// 같은 패키지 안에 클래스가 존재하기 때문에
 		Car mycar1 = new Car();
 		mycar1.color = "red";
+		
 	}
 }

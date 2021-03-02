@@ -5,7 +5,7 @@
       AnonymousClass의 method 재정의 -> 인터페이스나 추상클래스에 사용
  */
 
-package o226;
+package o226B;
 
 class AnonymousClass {	// AnoyMous(익명 클래스) : 재정의(Override) 목적의 클래스
     public AnonymousClass(){

@@ -7,7 +7,7 @@
     public class ImplementClass implements InterfaceA, B, C, D{}
     interfaceA ia = new ImplementClass();	// 생성
  */
-package o226;
+package o226B;
 
 interface interfaceA {	// interface A
     public void funA(); // 선언만하고, 정의는 No
