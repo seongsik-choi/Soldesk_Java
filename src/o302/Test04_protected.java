@@ -2,7 +2,7 @@
  * Test02_protected
  * 1. protected를 사용해 같은 클래스, 패키지 내 접근.
  */
-package other1;
+package o302;
 class Car {
 	protected String color;	// protected(패키지 내 접근)
 	int speed;
@@ -16,9 +16,8 @@ class Sedan extends Car {
 		 this.color = color;
 	}
 }
-public class Test02_protected {
+public class Test04_protected {
 	public static void main(String[] args) {
-
 		Sedan sedan1 = new Sedan();
 		sedan1.setSpeed(300);
 		sedan1.setColor("빨강");

@@ -4,6 +4,7 @@
 package o226;
 public class Test02_quiz {
 public static void main(String[] args) {
+	
 // 문제2) 대소문자 구분하여 출력하기(Character Class 사용)
 		String str = "Gone With The Wind";
 		char[] arrChar = str.toCharArray();	// 입력받은 문자열을 문자형 배열에 대입
@@ -111,20 +112,21 @@ public static void main(String[] args) {
 // a.png 잘라오기
 	     int pos2 = filename.lastIndexOf("/");	//  pos2로 마지막 "/"위치값
 	     filename = filename.substring(pos2+1); //  filename.substring(pos2+1) pos이후의 문자열을 담는다
-	     System.out.println(filename);
+	     System.out.println("파일 이름 : " +filename);
 
 //2) 파일의 확장자만 가져오기.		
 	     int dot = filename.indexOf(".");	//  int dot으로 filename에서 "."의 위치값을 담는다
 	     System.out.println(dot); // .의 위치는 3
 	     String ext = filename.substring(dot+1); //  pos2로 substring 썼던 방식으로 확장자만 잘라내서 ext에 넣어준다.	 
-	     System.out.println(ext); 				//png만 잘라오게 되었다.
-	     		
+	     System.out.println("확장명 : " +ext); 				//png만 잘라오게 되었다.
+	     System.out.println();
+	     
 //3) .gif .jpg .png 중 하나인지 확인하기.
 //확장자 대,소문자를 한꺼번에 처리해야하는 경우가 있음.
-//확장자를 전부 소문자로 바꾼 다음 || 연산자로 확인하기.
+//확장자를 전부 소문자로 바꾼 다음 ||(or) 연산자로 확인하기.
 	     ext = ext.toLowerCase();
 	     if(ext.equals("png")||ext.equals("jpg")||ext.equals("gif")){ //String 비교는 equals를 많이 쓴다.
-	     	System.out.println("파일명은: " + filename);
+	     	System.out.println("파일명: " + filename);
 	     	System.out.println("확장명 : "+ ext);
 	     	System.out.println("파일이 전송되었습니다.");
 	     }else {
