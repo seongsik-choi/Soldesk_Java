@@ -1,6 +1,7 @@
 /*
  Test06_interface (interfaceA, interfaceB 사용)
- - 추상클래스 <-> 인터페이스 : 추상 메소드 만 선언이 가능하다.(일반 메소드 불가능) 
+ - 추상클래스 <-> 인터페이스 : 
+   1) 추상 메소드 만 선언이 가능하다.(일반 메소드 불가능) 
  - 다형성 적용 : // 인터페이스(부모) 객체 = new implement(자식);
  - 다형성 (자식클래스 -> 부모클래스)
  
@@ -10,7 +11,7 @@
    
     ex) interface A, B, C, D가 있는경우
     public class ImplementClass implements InterfaceA, B, C, D{} (다형성)
-    interfaceA ia = new ImplementClass();	// 생성
+    interface ia = new ImplementClass();	// 생성
  */
 package o302;
 interface interfaceA {	// interface A
@@ -66,7 +67,8 @@ class AirplaneClass implements interfaceA, interfaceB { // extends와 달리 다
 }
 public class Test06_interface{
 public static void main(String[] args) {
-	 interfaceA ia = new AirplaneClass();	// 인터페이스name 객체 = new implementname();
+	 // new interfaceA();		error. new 키워드 불가
+	 interfaceA ia = new AirplaneClass();	// 인터페이스name 객체 = new implementname();  (자->부)
 	 interfaceB ib = new AirplaneClass();
 	 ia.funA();	// implement에서 재정의된 메소드 
 	 ib.funB();	// implement에서 재정의된 메소드 
