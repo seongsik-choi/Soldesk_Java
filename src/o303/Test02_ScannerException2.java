@@ -1,16 +1,16 @@
 /*
- * Test04_Scanner 입력
+ * Test02_Scanner 입력
 - s.netx(); // 한 단어를 입력
 - s.nextLine(); // 한 줄을 입력
 - System.in.read() // 문자 1개를 입력받음(한글 No)
  문) 사용자 이름을 등록해 놓고, scanner로 등록된 이름 외 다른 이름 입력시 예외처리하는 문제
  */
-package other2;
+package o303;
 import java.io.IOException;
 import java.util.Scanner;
-public class Test04_ScannerTry {
+public class Test02_ScannerException2 {
 	public static void main(String[] args) {
-	String userName = "hanbit";	// 사용자 이름을 고정
+	String userName = "ja";	// 사용자 이름을 고정
 	String input = "";			// 입력받을 input 변수 지정.
 	int key;
 	try {		// 예외처리

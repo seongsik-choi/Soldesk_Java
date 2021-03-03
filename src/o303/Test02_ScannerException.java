@@ -1,9 +1,9 @@
 /*
- * Test01_Scanner, Exception 활용 Cal
+ * Test02_Scanner, Exception 활용 Cal
  */
-package other3;
+package o303;
 import java.util.Scanner;
-public class Test01_ScannerException {
+public class Test02_ScannerException {
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
 		int a, b, result = 0;	// 데이터값 a, b와 결과값
