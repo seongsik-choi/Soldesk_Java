@@ -1,9 +1,9 @@
 /*
- Test07_
+ Test08_
  DataInputStream, DataOutputStream
  - byte 단위의 입출력을 개선해서 문자열을 좀 더 편리하게 다룸.
  */
-package other2;
+package o304;
 import java.io.DataOutputStream;
 import java.io.FileOutputStream;
 import java.io.OutputStream;

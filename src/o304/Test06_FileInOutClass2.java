@@ -9,21 +9,19 @@ Test05_입력과 출력(FileInputStream  FileOutputStream)
      FileOutputStream : write(byte[] b);  // 전체 쓰기
                         write(write(byte[], inf off, int len);  // off(시작점), len(길이)
  */
-package other2;
-
+package o304;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
-
 public class Test06_FileInOutClass2 {
 	public static void main(String[] args) throws Exception {
 		// read(); 1byte 단위로 읽는 경우
         InputStream inputStream = null;
         try {   // 네트워크 관련(I/O) 파일은 예외처리 꼭 해주기
-            inputStream = new FileInputStream("C:\\Temp\\hello.txt");
+            inputStream = new FileInputStream("C:/Temp/hello1.java");
             // hello.txt 내 Hello JAVA write -> 아스키코드로 출력
             int data = 0;
             while (true){

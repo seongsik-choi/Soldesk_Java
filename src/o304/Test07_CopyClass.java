@@ -1,8 +1,8 @@
 /*
- Test08_CopyClass
+ Test07_CopyClass
  2. 파일복사 : 파일 입/출력 클래스를 이용해서 파일 복사 가능
  */
-package other2;
+package o304;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.InputStream;

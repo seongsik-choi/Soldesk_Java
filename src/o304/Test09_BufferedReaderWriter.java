@@ -1,7 +1,7 @@
 /*
  * Test09_BufferedReader, BufferedWriter
  */
-package other2;
+package o304;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileReader;
