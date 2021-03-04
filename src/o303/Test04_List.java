@@ -98,6 +98,8 @@ public static void main(String[] args) {
     System.out.println();
     
 // 2. Map 인터페이스 : Key를 이용해 데이터를 관리
+// Generic : <Key, Value>
+// Key(이름표, 중복 허용 no) / Value(값, 중복 O)
     HashMap<Integer, String> map = new HashMap<Integer, String>();
            // <key값, 데이터 값>
     System.out.println("map.size() : " +map.size()); // map.size() : 0
@@ -135,5 +137,22 @@ public static void main(String[] args) {
     // 데이터 유무
     b = map.isEmpty();
     System.out.println("map.isEmpty() : " +b); // map.isEmpty() : true
-	}
+    System.out.println();
+    
+// 3. Set(인덱스 No) : Iterator 클래스 사용
+    Set set = new HashSet();
+    set.add(3);  // (Obejct e) : 모든 type 허용
+    set.add(3.5); set.add("BUSAN"); set.add(new Integer(9)); set.add('r'); 
+    System.out.println("set.size() : "+ set.size());
+// Index 대신 Cursor를 사용해 데이터 추출
+// Cursor : 가리킬 요소가 있으면 true, 없으면 false
+// Cursor = Iterator
+    Iterator iter = set.iterator(); // intr 변수 <- set 변수
+    
+    while(iter.hasNext()) {			// 다음으로 가리킬 대상이 있는지 = hasNext()
+    	//cursor가 가리키는 요소 가져오기
+    	Object obj = iter.next();
+    	System.out.println("set변수의 값은 : "+obj);  // r, 3, BUSAN, 9, 3.5가 순서엇이 나옴
+	}//while end  
+}
 }

@@ -23,7 +23,7 @@ public class Test06_FileInOutClass2 {
 		// read(); 1byte 단위로 읽는 경우
         InputStream inputStream = null;
         try {   // 네트워크 관련(I/O) 파일은 예외처리 꼭 해주기
-            inputStream = new FileInputStream("C:\\Users\\tonny\\hello.txt");
+            inputStream = new FileInputStream("C:\\Temp\\hello.txt");
             // hello.txt 내 Hello JAVA write -> 아스키코드로 출력
             int data = 0;
             while (true){
@@ -47,7 +47,7 @@ public class Test06_FileInOutClass2 {
         //  read(byte[]); []의 크기만큼 한번에 읽기
         InputStream inputStream1 = null;
         try {   // 네트워크 관련(I/O) 파일은 예외처리 꼭 해주기
-            inputStream = new FileInputStream("C:\\Users\\tonny\\hello.txt");
+            inputStream = new FileInputStream("C:\\Temp\\hello.txt");
             // hello.txt 내 Hello JAVA write -> 아스키코드로 출력
             int data = 0;
 
@@ -77,7 +77,7 @@ public class Test06_FileInOutClass2 {
         // write() 쓰는 경우
         OutputStream outputStream = null;
         try {   // 네트워크 관련(I/O) 파일은 예외처리 꼭 해주기
-            outputStream = new FileOutputStream("C:\\Users\\tonny\\helloW.txt");
+            outputStream = new FileOutputStream("C:\\Temp\\helloW.txt");
             String data = "Hello JAVA world!";
             byte[] arr = data.getBytes();
 
@@ -99,7 +99,7 @@ public class Test06_FileInOutClass2 {
         // write() 쓰는 경우 배열사용(저장할 문자의 시작점과 끝지점 지정)
         OutputStream outputStream1 = null;
         try {   // 네트워크 관련(I/O) 파일은 예외처리 꼭 해주기
-            outputStream1 = new FileOutputStream("C:\\Users\\tonny\\helloWa.txt");
+            outputStream1 = new FileOutputStream("C:\\Temp\\helloWa.txt");
             String data = "Hello JAVA world!!!!!";
             byte[] arr = data.getBytes();
 

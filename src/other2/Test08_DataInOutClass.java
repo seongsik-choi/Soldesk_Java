@@ -14,7 +14,7 @@ public class Test08_DataInOutClass {
         DataOutputStream dataOutputStream = null;   // 문자열 단위로
 
         try{
-            outputStream = new FileOutputStream("C:\\Users\\tonny\\helloWorld.txt");
+            outputStream = new FileOutputStream("C:\\Temp\\helloWorld.txt");
             dataOutputStream = new DataOutputStream(outputStream);
             // 생성자 매개변수로 사용해 확장
 

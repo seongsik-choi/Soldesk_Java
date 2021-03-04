@@ -7,8 +7,7 @@ import java.util.Scanner;
  * 2. method(메뉴화면) -> method(연락처 출력(view_juso()), 연락처 입력(add_juso()), 연락처 삭제(delete_juso())) 
  * 3. main : while 문 -> 종료 메소드 선택 시까지 loop -> 다른 메소드 호출시 동작(switch~case)
  */
-public class Test07_HandPhon {
-	
+public class Test07_HandPhone {
 static String fname = "c:\\temp\\juso.txt";	// 연락처를 저장할 dic 경로
 //연락처 클래스 지정(static)
 	static class address {	

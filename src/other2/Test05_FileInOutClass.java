@@ -51,7 +51,7 @@ public class Test05_FileInOutClass {
 	FileOutputStream fos = new FileOutputStream("C:/temp/data3.txt");
 	int ch2;
 	
-	System.out.println("기록할 문자를 입력하시오 : ");
+	System.out.printf("기록할 문자를 입력하시오 : ");
 	while ((ch2 = System.in.read()) != 13)	// 아스키 코드 값(13) 입력할때까지 키보드에서
 								// 문자 하나를 read()한다.
 		fos.write((byte) ch2);				// 입력한 문자를 파일에 기록
@@ -61,7 +61,7 @@ public class Test05_FileInOutClass {
 	Scanner sc = new Scanner(System.in);	// Scanner
 	FileWriter fw = new FileWriter("C:/temp/data4.txt");	// FileWriter 형식으로 fw 변수
 	String str;
-
+	
 	while (!(str = sc.nextLine()).equals(""))	// 입력한 행이 비어 있는 행이 아니면 11행을 처리. enter는 종료
 		fw.write(str + "\r\n");	// 입력한 문자열과 "\r\n"을 붙임
 

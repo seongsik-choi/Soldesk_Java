@@ -10,7 +10,7 @@ import java.io.IOException;
 public class Test09_BufferedReaderWriter {
 	public static void main(String[] args) {
 // 1) BufferedReader
-        String fileName = "C:\\Users\\tonny\\helloReader.txt";
+        String fileName = "C:\\Temp\\helloReader.txt";
 
         BufferedReader br = null;	// 행단위 읽기
         FileReader fr = null;
@@ -35,7 +35,7 @@ public class Test09_BufferedReaderWriter {
         }
 //--------------------------------------------------------------------------------------- 
 // 2) BufferedWriter       
-        String fileName1 = ("C:\\Users\\tonny\\helloWriter.txt");
+        String fileName1 = ("C:\\Temp\\helloWriter.txt");
 
         BufferedWriter bw = null;	// // 행단위 쓰기
         FileWriter fw = null;

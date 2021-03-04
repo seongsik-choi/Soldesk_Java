@@ -12,8 +12,8 @@ public class Test07_CopyClass {
 		 InputStream inputStream = null;
 	        OutputStream outputStream = null;
 	        try {   // 네트워크 관련(I/O) 파일은 예외처리 꼭 해주기
-	            inputStream = new FileInputStream("C:\\Users\\tonny\\hello.txt");
-	            outputStream = new FileOutputStream("C:\\Users\\tonny\\helloCopy.txt");
+	            inputStream = new FileInputStream("C:\\Temp\\hello.txt");
+	            outputStream = new FileOutputStream("C:\\Temp\\helloCopy.txt");
 	            // hello.txt 파일을 읽고, output을 통해 hellocopy로 복사
 
 	            byte[] arr = new byte[3];   // 3개씩

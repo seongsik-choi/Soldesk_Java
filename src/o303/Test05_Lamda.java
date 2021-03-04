@@ -1,11 +1,11 @@
 /*
-Test03_Lamda formula
+Test05_Lamda formula
  - 익명(anonymous) 함수를 이용해 익명 객체를 생성하기 위한 식
  - 객체지향이 아닌 함수지향적 프로그래밍
  - interface 타입의 변수 -> 람다 Expressions 으로
  - 객체 생성 필요없이, 파라미터, 실행문 만으로 결과를 도출
  */
-package other2;
+package o303;
 // interface로 Lamda Formula 생성
 interface LamadaInterfaceA {
     public void method(String s1, String s2, String s3);}
@@ -16,7 +16,7 @@ interface LamadaInterfaceC {
 interface LamadaInterfaceD {
     public int method(int x, int y);}
 
-public class Test03_Lamda {	// implements로 받지 않음
+public class Test05_Lamda {	// implements로 받지 않음
 	public static void main(String[] args) {
 // 매개변수와 실행문만으로 작성(접근자, 반환형, return 키워드 생략)
         LamadaInterfaceA li1 = (String s1, String s2, String s3)	// interfacaA
