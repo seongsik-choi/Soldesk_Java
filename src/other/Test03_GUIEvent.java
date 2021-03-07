@@ -1,7 +1,7 @@
 /*
  * Test03_GUI Event Programming
  */
-package other3;
+package other;
 import java.awt.*;
 import java.awt.event.*;	// Awt Event Class
 import javax.swing.*;

@@ -15,7 +15,7 @@ inMessage : 메시지 전송 완료             clientMessage : 오늘 날씨 �
 inMessage : 메시지 전송 완료              clientMessage : STOP
 Process finished with exit code 0 // process EXit
  */
-package otherNetworking;
+package o305;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.InputStream;

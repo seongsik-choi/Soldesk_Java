@@ -1,7 +1,7 @@
 /*
  * Test06_버블 정렬
  */
-package other3;
+package other;
 public class Test06_BubbleSort {
 public static void main(String[] args) {
 	Integer s[] = { 4, 3, 1, 7, 9 };  // 정수형 배열 5새 선언

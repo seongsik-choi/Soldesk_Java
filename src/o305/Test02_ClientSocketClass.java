@@ -4,7 +4,7 @@ Test02_네트워킹 : 네트워크에 연결되어 있는 대상 사이에서 �
   - 서버에 SeverSocket를 준비하고, 클라이언트에서 Socket를 이용해서 접속
   - 클라이언트에서 소켓을 만들어 접속하는 방식
  */
-package otherNetworking;
+package o305;
 import java.net.*;	// Socket에 대한 import
 public class Test02_ClientSocketClass {
 	public static void main(String[] args) {

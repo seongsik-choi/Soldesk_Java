@@ -1,4 +1,4 @@
-package other3;
+package other;
 import java.io.*;
 import java.util.Scanner;
 /*

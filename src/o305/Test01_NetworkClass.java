@@ -8,7 +8,7 @@ Test01_네트워킹 : 네트워크에 연결되어 있는 대상 사이에서 �
   - Client(http://localhost:9000)   /  Sever(Sever Socket 생성)
   - Sever는 port Num을 제공하여 多 클라이언트 수용
  */
-package otherNetworking;
+package o305;
 import java.net.*;	// Socket에 대한 import
 public class Test01_NetworkClass {
 	public static void main(String[] args) {

@@ -1,7 +1,7 @@
 /*
  * Test02_GUI Programming
  */
-package other3;
+package other;
 import java.awt.*;
 import javax.swing.*;
 public class Test02_GUILayout {

@@ -3,7 +3,7 @@ Test03_양방햔 통신
 5. 양방향 통신(InputputClientClass, InputputServerClass)
  - client와 Server는 InputStream, outputStream을 이용해서 양방향 통신 가능
  */
-package otherNetworking;
+package o305;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.InputStream;
