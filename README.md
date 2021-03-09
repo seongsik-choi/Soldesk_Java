@@ -8,6 +8,7 @@
 ![image](https://user-images.githubusercontent.com/76051264/102707716-bb744980-42e0-11eb-9fa1-b4c9a204bf9f.png)
   
   JDK 설치 완료, 설치 과정 중 폴더 지정 가능
+  
 ![image](https://user-images.githubusercontent.com/76051264/102707790-4b19f800-42e1-11eb-8ad4-3db6aa98a627.png)
 
 **2) 환경 변수 설정**
