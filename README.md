@@ -15,6 +15,7 @@
 **2) 환경 변수 설정**
 
 JVM 구동을 위한 java.exe와 compile 용도인 javac.exe를 다른 dic에서 접근할 수 있게 환경변수(Path)에 bin 경로 지정을 위해 환경변수 실행
+
 ![image](https://user-images.githubusercontent.com/76051264/102707820-97653800-42e1-11eb-84be-694db0d0efce.png)
 
 Windows 기준 환경변수 설정(환경변수 -> "시스템변수" -> 새로만들기)
