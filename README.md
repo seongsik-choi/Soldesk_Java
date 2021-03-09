@@ -11,7 +11,9 @@
   
 ![image](https://user-images.githubusercontent.com/76051264/102707790-4b19f800-42e1-11eb-8ad4-3db6aa98a627.png)
 
+
 **2) 환경 변수 설정**
+
 JVM 구동을 위한 java.exe와 compile 용도인 javac.exe를 다른 dic에서 접근할 수 있게 환경변수(Path)에 bin 경로 지정을 위해 환경변수 실행
 ![image](https://user-images.githubusercontent.com/76051264/102707820-97653800-42e1-11eb-84be-694db0d0efce.png)
 
@@ -33,7 +35,9 @@ Cmd 내 javac -version 명령실행을 통해 자바 환경 구성이 완료된�
 ![image](https://user-images.githubusercontent.com/76051264/102708049-6b4ab680-42e3-11eb-81c4-1b8303bd9a3f.png)
 
 **3. 편집기 없이 메모장, 컴파일러, java.exe를 이용해 코드를 실행하는 법**
+
 임의의 폴더 내 메모장을 사용해 java class 생성
+
 ![image](https://user-images.githubusercontent.com/76051264/102708173-47d43b80-42e4-11eb-874e-3c4e39520fca.png)
 
 Cmd 내 javac.exe(컴파일) Hello.java(컴파일할 java 파일) 명령 시 Class파일 생성
