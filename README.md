@@ -4,7 +4,7 @@
 ___ 
 * 0218 : operatorEx, bitwise Operator, if~else, conversion, homework(Scanner Cal)
 ___ 
-* 0219 : switch~case, for, continue, while, do~while, while(true), continue, 중첩 for, homework(Loop, Control)
+* 0219 : switch case, for, continue, while, do~while, while(true), continue, 중첩 for, homework(Loop, Control)
 ___ 
 * 0222 : array, 2-dimensional array
 ___ 
