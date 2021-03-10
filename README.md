@@ -6,12 +6,12 @@ ___
 ___ 
 * 0219 : switch case, for, continue, while, do~while, while(true), continue, 중첩 for, homework(Loop, Control)
 ___ 
-* 0222 : array, 2-dimensional array
+* 0222 : array, 2-dimensional array, array Cal, Math class, print Format
 ___ 
-* 0221 : Eclipse 설치, print, dataType, variable, operator
+* 0223 : method, 재귀함수, overload, homework(표준편차 함수 만들기)
 ___ 
-* 0217 : Eclipse 설치, print, dataType, variable, operator
+* 0224 : class, Constrcutor, this, this()
 ___ 
-* 0217 : Eclipse 설치, print, dataType, variable, operator
+* 0225 : static, final, this(), getter & setter, wrapper class, String Class(StringBuffer, StringBuilder)
 ___ 
 
